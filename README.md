@@ -16,8 +16,16 @@ Then use the following syntax to add your events listeners :
 
 Available values :
 ~~~
-	TRANSITION_END
-	ANIMATION_START
-	ANIMATION_ITERATION
-	ANIMATION_END
+TRANSITION_END
+ANIMATION_START
+ANIMATION_ITERATION
+ANIMATION_END
 ~~~
+
+## Why ? ##
+
+Because some browsers use prefixed versions of event names ("webkitTransitionEnd", "oTransitionEnd") while others use the standard, lowercase version ("ontransitionend"). I find it difficult to remember and a hassle to have to write three `addEventListener` sentences for each event.
+
+## Credits ##
+
+Packaged by @boblemarin, based on code written by Chris Heilmann (http://thewebrocks.com/demos/smashing-events/transitionevent.html)
