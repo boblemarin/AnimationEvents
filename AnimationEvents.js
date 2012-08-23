@@ -1,3 +1,13 @@
+/*
+* AnimationEvents.js - v0.1
+* https://github.com/boblemarin/AnimationEvents.js
+*
+* Packaged by @boblemarin
+* Based on some code written by the almighty @codepo8
+*
+* No real licence, just make it yours and enjoy...
+*
+*/
 (function(w,n){
 	"use strict";
 	var d = function(as, ai, ae, te ) {
