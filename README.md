@@ -1,8 +1,8 @@
 # AnimationEvent.js #
 
-A simple utility script that generates pseudo-constants for CSS animation and transition events, so you don't have to worry about vendor prefixes. The values are stored in the global scope, so they're easy to use in your entire project.
+A simple utility script that generates pseudo-constants for CSS animation and transition events, so you don't have to worry about vendor prefixes. 
 
-If you don't feel like polluting the blogal scope, feel free to modify the source to accomodate your favourite coding style (I left some examples in the comments).
+The values are stored in the global scope, so they're easy to use in your entire project. If you don't feel like polluting the blogal scope, feel free to modify the source to accomodate your favourite coding style (I left some examples in the comments).
 
 ## Usage : ##
 
@@ -24,7 +24,7 @@ ANIMATION_END
 
 ## Why ? ##
 
-Because some browsers use prefixed versions of event names (`webkitTransitionEnd`, `oTransitionEnd`) while others use the standard, lowercase version ("ontransitionend"). I find it difficult to remember and a hassle to have to write three `addEventListener` sentences for each event.
+Because some browsers use prefixed versions of event names (`webkitTransitionEnd`, `oTransitionEnd`) while others use the standard, lowercase version (`ontransitionend`). I find it difficult to remember and a hassle to have to write three `addEventListener` sentences for each event.
 
 ## Credits ##
 
