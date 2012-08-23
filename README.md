@@ -15,8 +15,9 @@ Then use the following syntax to add your events listeners :
 	element.addEventListener( TRANSITION_END, myTransitionEndHandler, false );
 
 Available values :
-: TRANSITION_END
-: ANIMATION_START
-: ANIMATION_ITERATION
-: ANIMATION_END
-
+~~~
+	TRANSITION_END
+	ANIMATION_START
+	ANIMATION_ITERATION
+	ANIMATION_END
+~~~
